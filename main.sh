@@ -10,7 +10,7 @@ apt-get build-dep ./ -y
 
 
 # Build ALVR
-git clone https://github.com/alvr-org/ALVR --recursive -b v20.1.0
+git clone https://github.com/alvr-org/ALVR --recursive -b v20.4.2
 cd ./ALVR
 export CARGO_PROFILE_RELEASE_LTO=true
 export RUSTUP_TOOLCHAIN=stable
